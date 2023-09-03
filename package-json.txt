@@ -1,0 +1,10 @@
+express -> Manejo https
+moment -> Manejo de fechas
+mongoose -> capa extra para consultas con bbdd
+mongoose-pagination -> paginacion
+multer -> subir ficheros al servidor
+validator -> validar datos
+bcrypt-nodejs -> cifrar datos
+jwt-simple -> autenticar
+cors
+nodemon
