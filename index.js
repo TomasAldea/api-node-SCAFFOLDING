@@ -20,6 +20,15 @@ app.use(express.urlencoded({
     extended: true
 }));
 
+app.get('/test', (req, res) => {
+    const jsonData = {
+      message: 'Esta es una respuesta JSON de ejemplo',
+      date: new Date()
+    };
+  
+    res.json(jsonData);
+});
+
 // cargar rutas
 const userRouter = require("./routes/userRoute");
 const recipeRouter = require("./routes/recipeRoute");
